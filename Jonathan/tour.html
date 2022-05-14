@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan University on Fire!!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap" >
+<!-- <link rel ="stylesheet" href= "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> -->
+<script src="https://kit.fontawesome.com/be71ee93bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- <section class="header">
+        <nav>
+            <a href="index.html"><img src ="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Tour Options</h1>
+            <p>Hey there! I'm Jon. Welcome to the best website you've ever seen.
+                <br> Have fun exploring!!
+            </p>
+            <a href="" class="hero-btn">Visit to know more</a>
+        </div>
+    </section> -->
+
+    <!-- -----course -->
+  
+    <section class = "course">
+          <h1>Tours offered </h1>
+
+          <div class="row">
+             <div class="course-col" id="tour1">
+                 <h3>The Hmong arts</h3>
+                 <img src= 'images/hmong.jpeg'>
+                 <p>
+                    This tour is aimed towards tourists who want to know more about
+                    the culture of the Hmongs situated in China. You can also take part in events held 
+                    in the place.
+                 </p>
+                 <i><h4>Price: Rs. 1000</h4></i>
+                 <h4>
+
+                 </h4>
+                 <a href="/tour1.html" class="tourviewbtn" type="button">View Tour</a>
+                 <a href="" class = "tourbuybtn" type="button">Buy Tour</a>
+             </div>
+             <div class="course-col" id="tour2">
+                 
+                <h3>The Aborginals</h3>
+                <img src= 'images/aborginal.jpg'>
+                <p>
+                   This course is aimed toward students willing to participate
+                   in a coursework that is intended to help minorities or whatever
+                   the heck is. This is pure bs btw. Don't mind
+                </p>
+                <i><h4>Price: Rs. 1200</h4></i>
+                <a href="tour2.html" class = "tourviewbtn" type="button">View Tour</a>
+                <a href="" class = "tourbuybtn" type="button">Buy Tour</a>                
+                
+            </div>
+            <div class="course-col" id="tour3">
+                <h3>The Maori</h3>
+                <img src= 'images/maori.jpg'>
+                <p>
+                   This course is aimed toward students willing to participate
+                   in a coursework that is intended to help minorities or whatever
+                   the heck is. This is pure bs btw. 
+                </p>
+                <i><h4>Price: Rs. 1300</h4></i>
+                <a href="tour3.html" class = "tourviewbtn" type="button">View Tour</a>
+                <a href="" class = "tourbuybtn" type="button">Buy Tour</a>
+            </div>
+            
+          </div>
+    </section>
+
+    <!-- Javascript for toggle menu -->
+    <script>
+        // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCBFeipZjidq-uSZ0yZv61e3Y-U8Nm8LT4",
+  authDomain: "indiart-8b228.firebaseapp.com",
+  projectId: "indiart-8b228",
+  storageBucket: "indiart-8b228.appspot.com",
+  messagingSenderId: "876930744902",
+  appId: "1:876930744902:web:94e69d02999d1b1ef50047",
+  measurementId: "G-5PEGP5DCNX"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+const database = getDatabase(app);
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
