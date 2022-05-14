@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.indiartsection{
+   
+    border-bottom : 2px solid black;
+    padding: 15px;
+    text-align: center;
+    
+    
+
+
+}
+
+
+.indiartpara{
+    
+    font-size: 1.3rem;
+}
+
+
+img{
+
+    margin-top: 12px;
+    
+    
+
+}
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 99999999;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.roundimagesflex{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+    padding-bottom : 6px;
+}
+
+.img1,.img2,.img3,.img4{
+   
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 70px;
+    
+      
+}
+
+.imgcontainer{
+    width:95%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 320px;
+}
+.imgcontainer img{
+    justify-content: center;
+    width:100%;
+
+}
+
+.likecommentreport{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2px;
+}
+
+.likecommentreport button{
+    width: 33%;
+    padding: 5px;
+}
+
+.videocontainer{
+    width:95%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 250px;
+}
+ion-icon{
+    vertical-align: middle;
+}
+
+.bottomfixed{
+    background-color: white;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    z-index: 99999999;
+    background-color: white;
+    overflow: hidden;
+    display:flex;
+    justify-content: space-evenly;
+    height: 40px;
+    padding-top: 13px;
+    font-weight: bold;
+    border:2px solid black;
+
+    
+}
+
+footer{
+    padding-top: 35px;
+}
+
+
+
+
